@@ -1,0 +1,12 @@
+body {
+    background-color: #121214;
+    background-image: url(./assets/bg-blue.svg);
+    background-position-x: center;
+    background-position-y: 55.6%;
+}
+
+#app {
+    border: 1px solid red;
+    width: fit-content;
+    margin: 52px auto;
+}
