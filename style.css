@@ -87,3 +87,31 @@ ul {
     font-weight: 125%;
     color: #e1e1e6;
 }
+
+.card h2:hover,
+.card ul li strong:hover,
+.card ul li img:hover {
+    transform: scale(1.1);
+}
+
+.card h2,
+.card ul li strong,
+.card ul li img {
+    transition: transform 0.5s;
+}
+
+.card {
+    opacity: 0;
+    animation: appear .2s forwards;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
