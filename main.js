@@ -20,25 +20,18 @@ function createCard(date, day, games) {
     `
 }
 
-document.querySelector('#app').innerHTML = `
-<header>
-    <img src="./assets/logo.svg" alt="Logo da NLW Copa">
-</header>
+document.querySelector('#cards').innerHTML = 
+    createCard('23/11', 'quarta', 
+        createGame('germany', '10:00', 'japan') + 
+        createGame('spain', '13:00', 'costa-rica') + 
+        createGame('belgium', '16:00', 'canada')) +
 
-<main id="cards">
-    <!--1st card-->
-    ${createCard('23/11', 'quarta', createGame('germany', '10:00', 'japan') + 
-    createGame('spain', '13:00', 'costa-rica') + 
-    createGame('belgium', '16:00', 'canada'))}
+    createCard('27/11', 'domingo', 
+        createGame('japan', '07:00', 'costa-rica') +
+        createGame('croatia', '13:00', 'canada') +
+        createGame('spain', '16:00', 'germany')) +
 
-    <!--2nd card-->
-    ${createCard('27/11', 'domingo', createGame('japan', '07:00', 'costa-rica') +
-    createGame('croatia', '13:00', 'canada') +
-    createGame('spain', '16:00', 'germany'))}
-
-    <!--3rd card-->
-    ${createCard('01/12', 'quinta', createGame('canada', '12:00', 'morocco') +
-    createGame('japan', '16:00', 'spain') +
-    createGame('costa-rica', '16:00', 'germany'))}
-</main>
-`
+    createCard('01/12', 'quinta', 
+        createGame('canada', '12:00', 'morocco') +
+        createGame('japan', '16:00', 'spain') +
+        createGame('costa-rica', '16:00', 'germany'))
