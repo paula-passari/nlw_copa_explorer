@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -35,3 +36,7 @@ O Calendário da Copa é um projeto que mostra os jogos da Copa 2022.
 
 Você pode visualizar o projeto através [DESSE LINK](https://paula-passari.github.io/nlw_copa_explorer/).
 
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
